@@ -1,0 +1,16 @@
+{
+  "main": "Tracker.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager . Tracker --platform=win32 --arch=x64 --out=dist --overwrite"
+  },
+  "dependencies": {
+    "discord.js-selfbot-v13": "^3.6.0",
+    "jsdom": "^26.0.0",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "electron": "^34.2.0",
+    "electron-packager": "^17.1.2"
+  }
+}
